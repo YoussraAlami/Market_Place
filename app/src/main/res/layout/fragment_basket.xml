@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/material_dynamic_neutral_variant95"
+    tools:context=".BasketFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- First CardView -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="3dp"
+            app:cardElevation="3dp"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:orientation="horizontal">
+
+
+                <!-- Unique ID for the first set of views -->
+                <ImageView
+                    android:id="@+id/cat_nav_img_1"
+                    android:background="@drawable/border"
+                    android:layout_width="150dp"
+                    android:layout_height="170dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/img88"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:paddingTop="4dp"
+                        android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/nav_cat_name_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Iphone11"
+                        android:textSize="20sp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="2"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+                        <Button
+                            android:id="@+id/button4"
+                            android:backgroundTint="#8692f7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Add" />
+
+                    </LinearLayout>
+                        <TextView
+                            android:id="@+id/nav_cat_description_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Description"
+                            android:textSize="18sp"
+                            android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#8692f7"
+                        android:textSize="20sp"
+                        android:text="Price: 500$"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Second CardView -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:cardCornerRadius="3dp"
+            app:cardElevation="3dp"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:orientation="horizontal">
+
+               <ImageView
+                    android:id="@+id/cat_nav_img_second"
+                    android:background="@drawable/border"
+                    android:layout_width="150dp"
+                    android:layout_height="170dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/img22"
+                    tools:ignore="DuplicateIds" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <!-- Unique IDs for the second set of TextViews -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:paddingTop="4dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/nav_cat_name_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" Iphone 12"
+                            android:textSize="20sp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="2"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+
+                        <Button
+                            android:id="@+id/button6"
+                            android:backgroundTint="#8692f7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Add" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/nav_cat_description_second"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Description"
+                        android:textSize="18sp"
+                        android:textColor="@color/black"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#8692f7"
+                        android:text="Price: 900$"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+
+</FrameLayout>
